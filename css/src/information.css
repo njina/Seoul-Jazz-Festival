@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/* information.css */
+/* 제이쿼리 반영 재구성안 */
+
+@import url('../rwd/common/wrap.css');
+
+@import url('../rwd/common/header_mobile.css');
+@import url('../rwd/common/header_tablet.css');
+@import url('../rwd/common/header_laptop.css');
+
+@import url('../rwd/information/mobile.css');
+@import url('../rwd/information/tablet.css');
+@import url('../rwd/information/labtop.css');
+
+@import url('../rwd/common/footer.css');
+
+/* ----------------- */
+

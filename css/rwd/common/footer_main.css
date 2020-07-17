@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+/* footer.css */
+/* footer영역, 모바일,태블릿,랩탑 집합 */
+
+
+/* 모바일 =========================================== */
+@media screen and (max-width: 766px){
+	
+	#footBox {
+		position: relative;
+		width: 100%; height: 150px; 
+		padding: 10px 5px; box-sizing: border-box;
+		margin:auto;
+		background-color: #ddd;
+	}
+	
+	.sponsor {
+		overflow: hidden;
+		width: 100%; height: 50px;
+	}
+	.sponsor ul {
+		width: 100%; height: 100%;
+		margin: auto;
+	}
+	.sponsor li {
+		float: left;
+		width: 100px; height: 100%;
+		margin-right: 10px; 
+	}
+	
+	.copyright {
+		font-family: 'sans-serif';
+		width: 100%; height: 80px;
+		text-align: center; 
+		padding: 15px; box-sizing: border-box;
+		font-size: 0.875rem; color: #333;
+		/* background-color: #fff; */
+	}
+	/* topBtn ================================= */
+	.topBtn {
+		display: none;
+		position: fixed; bottom: 20px; right:10px; z-index: 1000;
+		width: 40px; height: 40px;
+		/* margin-left: 100px; */
+		background-color: #fff;
+		border-radius: 100%;
+		box-shadow: 0rem 0rem 0.3rem rgba(30, 30, 30, 0.5);
+	}
+	.topBtn button {
+		width: 100%; height: 100%;
+		font-size: 1.2rem; color: #3B3B3B;
+	}
+	
+	.mobile_br {display:block;}
+/* @media 종료태그 */
+}
+
+
+
+/* 태블릿 =========================================== */
+@media screen and (min-width: 767px) and (max-width: 939px) {
+	
+	#footBox {
+		position: relative;
+		width: 100%; height: 200px; 
+		padding: 30px;box-sizing: border-box;
+		margin:auto; 
+		background-color: #ddd;
+	}
+	
+	.sponsor {
+		overflow: hidden;
+		width: 100%; height: 100px;
+		/* background-color: #ddd; */
+	}
+	.sponsor ul {
+		width: 100%; max-width: 900px; height: 80px;
+		margin:auto;
+		margin: auto; padding-top: 20px; box-sizing: border-box;
+	}
+	.sponsor li {
+		float: left;
+		width: 100px; height: 80px;
+		margin-right: 20px; 
+		/* background-color: #aaa; */
+	}
+	
+	.copyright {
+		font-family: 'sans-serif';
+		width: 100%; height: 60px;
+		text-align: center; line-height: 60px;
+		font-size: 0.875rem; color: #333; font-weight: normal;
+		/* background-color: #fff; */
+	}
+	/* topBtn ================================= */
+	.topBtn {
+		display: none;
+		position: fixed; bottom: 30px; right: 50px; z-index: 1000;
+		width: 50px; height: 50px;
+		/* margin-left: 300px; */
+		background-color: #fff;
+		border-radius: 100%;
+		box-shadow: 0rem 0rem 0.3rem rgba(30, 30, 30, 0.5);
+	}
+	.topBtn button {
+		width: 100%; height: 100%;
+		font-size: 1.8rem; color: #3B3B3B;
+	}
+	
+	.mobile_br {display:none;}
+/* @media 종료태그 */
+}
+
+
+
+
+/* 랩탑 =========================================== */
+@media screen and (min-width: 940px){
+	
+	#footBox {
+		position: relative;
+		width: 100%; max-width: 1600px; height: 200px; 
+		margin:auto;
+		padding-left: 300px; padding-top: 20px;  box-sizing: border-box;
+		background-color: #ddd;
+
+	}
+	
+	.sponsor {
+		overflow: hidden;
+		width: 100%; height: 100px;
+	}
+	.sponsor ul {
+		width: 940px; height: 100%;
+		margin: auto; padding-top: 20px; box-sizing: border-box;
+	}
+	.sponsor li {
+		float: left;
+		width: 120px; height: 100%;
+		margin-right: 30px; 
+	}
+	.sponsor_btn {
+		width: 20px; height: 20px; 
+	}
+	
+	.copyright {
+		font-family: 'sans-serif';
+		width: 100%; height: 80px;
+		line-height: 80px;
+		font-size: 0.875rem; color: #333;
+		/* background-color: #fff; */
+	}
+	/* topBtn ================================= */
+	.topBtn {
+		display: none;
+		position: absolute; bottom: 30px; left: 50%; z-index: 1000;
+		width: 50px; height: 50px;
+		margin-left: 680px;
+		background-color: #fff;
+		border-radius: 100%;
+		box-shadow: 0rem 0rem 0.3rem rgba(30, 30, 30, 0.5);
+	}
+	.topBtn button {
+		width: 100%; height: 100%;
+		font-size: 1.8rem; color: #3B3B3B;
+	}
+
+	.mobile_br {display:none;}
+/* @media 종료태그 */
+}
+	
+
+	

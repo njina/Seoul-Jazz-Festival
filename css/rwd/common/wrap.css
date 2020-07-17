@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/* wrap.css */
+/* wrap영역, 모바일,태블릿,랩탑 집합 */
+
+
+/* 모바일 =========================================== */
+@media screen and (max-width: 766px){
+	
+	#wrap {
+		width: 100%; 
+		min-width: 320px; 
+		height: auto;
+		margin: auto;
+		overflow: hidden;
+		font-family: 'Noto Serif', serif;
+		font-family: 'Noto Serif KR', serif;
+	}
+	
+/* @media 종료태그 */
+}
+
+
+
+/* 태블릿 =========================================== */
+@media screen and (min-width: 767px) and (max-width: 939px) {
+	
+	#wrap {
+		width: 100%; 
+		/* min-width: 767px; max-width: 939px;  */
+		height: auto;
+		margin: auto;
+		overflow: hidden;
+		font-family: 'Noto Serif', serif;
+		font-family: 'Noto Serif KR', serif;
+	}
+	
+/* @media 종료태그 */
+}
+
+
+
+
+/* 랩탑 =========================================== */
+@media screen and (min-width: 940px){
+	
+	#wrap {
+		width: 100%; min-width: 940px; max-width: 1600px; height: auto;
+		margin: auto;
+		overflow: hidden;
+		font-family: 'Noto Serif', serif;
+		font-family: 'Noto Serif KR', serif;
+	}
+
+/* @media 종료태그 */
+}
+	
+
+	

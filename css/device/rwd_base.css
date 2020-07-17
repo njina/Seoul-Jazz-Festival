@@ -1,0 +1,38 @@
+/* rwd_base.css */
+
+/* common text style */
+.text_left {text-align: left;}
+.text_center {text-align: center;}
+
+/* #wrap */
+#wrap {width: 100%; height: auto; margin: auto;}
+
+/* #headBox */
+#headBox {width: 100%; background-color: #FF3292;}
+
+/* #viewBox */
+#viewBox {width: 100%; background-color: #00998D;}
+
+/* #ticketBox */
+#ticketBox {width: 100%; margin: auto; background-color: #00BD8D;}
+
+/* #lineupBox */
+#lineupBox {width: 100%; background-color: #808080;}
+  .lineup_area {margin: auto;}
+  .lineup_artist {float: left; height: 100%; background-color: #FF3292;}
+  .lineup_timetable {float: right; height: 100%; background-color: #00998D;}
+
+/* #infoBox */
+#infoBox {width: 100%; background-color: #999;}
+  .info_area {width: 100%; background-color: ;}
+  .info_title {width: 100%; background-color: ;}
+  .info_preview {width: 100%; background-color: #FF7292;}
+  .info_location {width: 100%; background-color: #FF9F92;}
+  .info_map {width: 100%; background-color: #FFCC92;}
+
+
+/* #galleryBox */
+#galleryBox {width: 100%; background-color: #808080;}
+
+/* #footBox */
+#footBox {width: 100%; background-color: #999;}

@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+/* header_laptop.css */
+/* 헤더영역, 랩탑  */
+
+@media screen and (min-width: 940px){
+
+
+	/* #headBox ================================= */
+	#headBox {
+		position: fixed; top: 0;  z-index: 1000;
+		width: 30%; max-width: 280px; height: auto; 
+		padding: 20px; box-sizing: border-box;
+		background-color: rgba(30, 100, 80, 0.7);
+	}
+	
+	h1 {
+		position: absolute; top: 200px; right: 20px;
+		width: 80px; height: 80px;
+		/* background-color: #fff; */
+		background-image: url(../../../img/h1_logo_lapotp.svg);
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		background-size: contain;
+	}
+	h1 a {display: block; width: 100%; height:100%;}
+
+	/* #gnbBox ================================= */
+	#gnbBox {
+		position: relative;
+		float: right;
+		margin-top: 250px;
+		width: 80%; height: auto;
+		/* background-color: rgba(255, 255, 255, 0.5); */
+	}
+	
+	.navi_menu_btn {display: none;}
+	.navi_exit_btn {display: none;}
+	
+	
+	/* .navi ================================= */
+	.navi {
+		position: relative; top: 20px;
+		width: 100%; height: 550px;}
+	.navi ul {
+		position: absolute;
+		width: 100%;  height: auto;}
+	.navi li {
+		width: 100%; height: 30px; 
+		margin: 8px 0; 
+		text-align: right;
+		font-size: 1.2rem; color: #fff;
+	}
+	.navi li a {display: block; width: 100%; height: 100%;}
+	
+	.sns_zone{
+		position: absolute; top: 230px; left: 0;
+		width: 30px; height: auto; 		
+	}
+	.sns_zone ul {
+		width: 100%; height: auto; 
+		padding: 5px;
+		border-top-right-radius: 15px;
+		border-bottom-right-radius: 15px;
+		background-color:rgba(200, 200, 200, 0);
+
+	}
+	.sns_zone li {
+		width: 30px; height: 30px; margin-bottom: 12px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-image: url(../../../img/sns_icon.png);
+	}
+	.sns_zone li:nth-child(1){background-position: 0 0;}
+	.sns_zone li:nth-child(2){background-position: -40px 0;}
+	.sns_zone li:nth-child(3){background-position: -80px 0;}
+	.sns_zone li:nth-child(4){background-position: -118px 0;}
+	.sns_zone li a {
+		display: block; width: 100%; height: 100%;
+	}
+
+
+
+
+
+
+
+/* @media 종료태그 */
+}

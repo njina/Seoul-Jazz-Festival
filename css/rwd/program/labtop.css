@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* laptop.css */
+/* program 페이지 laptop  */
+@media screen and (min-width: 940px){
+
+#lineUpBox{
+	width: 100%;
+	height:auto; min-height: 800px;
+	padding: 20px; padding-left: 350px; box-sizing: border-box;
+	margin: auto;
+	/* background-color: #334; */
+	background-image:linear-gradient(rgb(19, 31, 24),#4b0914);
+}
+#lineUpBox h2 {
+	width: 100%; height: auto;
+	border-bottom: 2px solid #007f76;
+	text-align: center;
+	color: #fff; font-size: 2rem;
+}
+
+.lineUp_area{
+	width: 100%;  max-width: 800px; 
+	height: auto; margin:auto;
+	padding-top: 40px; box-sizing: border-box;
+}
+.lineUp_area ul {
+	width: 100%; height: auto;
+	margin:auto;
+	/* background-color: #fda; weee*/
+}
+.lineUp_area li {
+	position: relative;
+	float:left;
+	width: 32%; max-width: 250px;  height: 300px;
+	margin-right: 2%;
+	margin-bottom: 10%;
+	background-color: #fff; 
+	border-radius: 13px;
+}
+.lineUp_area li:nth-child(3n) {margin-right: 0;}
+
+.lineUp_area li a {
+	position: relative;
+	display:block; width: 100%; height: 100%;
+}
+.lineUp_area li a:hover,
+.lineUp_area li a:focus {
+	position: absolute; top:  0; left: 0; z-index: 10;
+	width:100%; height: 100%;
+	border-radius: 13px;
+	color: #fff;
+}
+
+
+.lineUp_area li div {
+	width: 100%; height: 250px; 
+	background-size: 100% auto;
+	border-radius: 13px;
+	transition: all 300ms ease;
+}
+.lineUp_area li.active div {
+	background-size: 120% auto;
+}
+
+.lineUp_area li a:before{
+	content:""; display: block; 
+	position: absolute; top: 0; left: 0; 
+	width: 100%; height: 100%; 
+	background-color: rgba(0, 127, 118, 0);  
+	border-radius: 13px;
+	transition: all 300ms ease;
+}
+.lineUp_area li.active a:before{
+	background-color: rgba(0, 127, 118, 0.7); 
+}
+
+
+.lineUp_area li p {
+	position: relative; z-index: 10;
+	width: 100%; height: 50px;
+	font-size: 1rem; text-align: center;
+}
+.lineUp_area li p span {
+	position: absolute; top: 50%;
+	display: block;
+	width: 100%; height: auto; 
+	margin:auto;	
+	transform: translateY(-50%);
+}
+
+
+
+
+#timeTableBox{
+	width: 100%;
+	height:auto; min-height: 800px;
+	padding: 100px; padding-left: 350px; box-sizing: border-box;
+	margin: auto;
+	background-color: #fff;
+}
+#timeTableBox h2 {
+	width: 100%; height: auto;
+	border-bottom: 2px solid #007f76;
+	text-align: center;
+	color: #333; font-size: 2rem;
+}
+.timeTable_area{
+	width: 100%;
+	height:auto; min-height: 800px;
+	margin: auto;
+}
+
+.timeTable_area div {
+	float:left;  
+	width: 49%; height: 2000px;
+	margin-right: 1%; 
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 100% auto;
+}
+.timeTable_area div:nth-child(1) {background-image: url(../../../img/lineUp_1.png);}
+.timeTable_area div:nth-child(2) {background-image: url(../../../img/lineUp_2.png);}
+
+
+
+.timeTable_area p {
+	text-align:center;
+	font-size: 2rem;
+}
+
+
+
+/* @media 종료태그 */
+}
+

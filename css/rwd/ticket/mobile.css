@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+/* tablet.css */
+/* ticket페이지 tablet */
+
+@media screen and (max-width: 766px){
+
+#contBox{
+	width: 100%;
+	height:auto; min-height: 800px;
+	padding: 20px; padding-top: 60px; box-sizing: border-box;
+	margin: auto; margin-bottom: 30px;
+}
+
+.cont_area {
+	width:100%; max-width: 940px; height: auto; margin:auto;
+}
+
+#contBox h2 {
+	width: 100%; height: 50px;
+	border-bottom: 2px solid #007f76;
+	margin-top: 40px;  margin-bottom: 40px;
+	text-align: center;
+	color: #333; font-size: 1.2rem;
+}
+
+/* -======== */
+.ticket_link {
+	width: 100%; height:auto;
+	margin:auto;
+}
+.ticket_link ul {
+	width: 200px; height: auto;
+	margin:auto;
+}
+.ticket_link li {
+	width: 100%; height: 80px; 
+	margin-bottom: 30px; 
+	background-color: #fff;
+
+}
+.ticket_link li a {
+	display: block;width: 100%;height: 100%;
+	text-align: center; line-height: 80px;
+	font-size: 1.2rem;
+	border-radius: 50px; border:1px solid #007f76; box-sizing: border-box;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+.ticket_link li a:hover,
+.ticket_link li a:focus {
+	background-color: #007f76;
+	color: #fff;
+}
+
+
+.interpark {
+	background-image:url(../../../img/sponsor/sponsor_interpark.png);
+	background-size: 80% auto;
+}
+.wemeprice {
+	background-image:url(../../../img/sponsor/sponsor_wemep.png);
+	background-size: 60% auto;
+}
+
+
+
+/* -======== */
+
+.ticket_notice {
+	width: 100%; height: auto; 
+	margin:auto; margin-bottom: 10px;
+}
+
+.ticket_notice h3 {
+	width: auto; height: 40px;
+	margin-top: 20px;
+	font-weight: bold;
+	color: #e8328e; font-size: 1rem; line-height: 40px; 
+}
+.ticket_notice p {
+	position: relative;
+	width: auto; height:auto;
+	margin-bottom: 0.5rem;
+	padding-left: 30px;
+	color: #333; font-size: 0.9375rem; line-height: 1.5rem;
+ word-break: keep-all;
+}
+.ticket_notice p:before {
+	position: absolute; top: 2px; left: 14px; 
+	content: "-"; width: auto; height: auto; 
+}
+
+.ticket_notice p.bold
+ {font-size: 1.1rem; font-weight: bold; color: #e8328e;}
+ .ticket_notice p.bold:before{
+	content: "*"
+ }
+
+
+/* @media 종료태그 */
+}

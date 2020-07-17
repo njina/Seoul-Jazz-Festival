@@ -1,0 +1,7 @@
+/* rwd.css */
+
+@import url("../device/rwd_base.css");
+@import url("../device/rwd_mob.css");
+@import url("../device/rwd_tab.css");
+@import url("../device/rwd_labtop.css");
+@import url("../device/rwd_pc.css");

@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+/* laptop.css */
+/* information 페이지 laptop */
+@media screen and (max-width: 766px){
+
+#giude_info, #audience_info, #location_info{
+	width: 100%; max-width: 300px; 
+	height:auto;
+	padding-top: 20px; box-sizing:border-box;
+	margin: auto;
+	/* background-color: #334; */
+}
+#giude_info{
+	padding-top: 60px; 
+}
+
+.giude_area, .audience_area, .location_area{
+	width:100%; max-width: 300px; height: auto; 
+	margin:auto;
+}
+#giude_info h2 , #audience_info h2 , #location_info h2 {
+	width: 100%; height: 50px;
+	border-bottom: 2px solid #007f76;
+	margin-top: 20px;  margin-bottom: 20px;
+	text-align: center;
+	color: #333; font-size: 2rem;
+}
+
+#giude_info h3 , #audience_info h3 , #location_info h3 {
+	width: auto; height: 40px;
+	margin-top: 20px;
+	font-weight: bold;
+	color: #e8328e; font-size: 1rem; line-height: 40px; 
+}
+p {
+	position: relative;
+	width: auto; height:auto;
+	margin-bottom: 0.5rem;
+	padding-left: 20px;
+	color: #333; font-size: 0.9375rem; line-height: 1.5rem;
+ word-break: keep-all;
+}
+p:before {
+	position: absolute; top: 2px; left: 10px; 
+	content: "-"; width: auto; height: auto; 
+}
+p.bold {font-weight: bold; color: #e8328e;}
+p.bold:before {	content: "*"; }
+
+.notice_icon_02 {
+	width: 100%; max-width: 280px; height: 100px; 
+	margin: 10px;
+	background-image: url(../../../img/notice_icon_02.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size:  100% auto;
+}
+.notice_icon_03 {
+	width: 100%; max-width: 300px; height: 100px; 
+	margin: 10px;
+	background-image: url(../../../img/notice_icon_03.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 100% auto ;
+}
+
+.map{
+	width: 100%; height:190px;
+	margin-bottom: 10px;
+	background-image:url(../../../img/map.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 100% auto;
+}
+
+
+
+/* @media 종료태그 */
+}
+	
